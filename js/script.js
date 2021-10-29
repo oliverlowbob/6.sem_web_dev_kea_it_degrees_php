@@ -69,16 +69,23 @@ $("#aPBA").hover(function(){
     }, 2000)
 });
 
+$("#aAbout").click(function(e){
+    $("#About").css("display", "block");
+    $("article:not(#About)").css("display", "none");
+});
+
 $("#aCS").click(function(e){
     $("#CS").css("display", "block");
     $("article:not(#CS):not(#Home):not(.subject)").css("display", "none");
     $("#Home").css("display", "none");
+    $("#About").css("display", "none");
 });
 
 $("#aSD").click(function(e){
     $("#SD").css("display", "block");
     $("article:not(#SD):not(#Home):not(.subject)").css("display", "none");
     $("#Home").css("display", "none");
+    $("#About").css("display", "none");
 });
 
 $("#aWD").click(function(e){

@@ -175,6 +175,6 @@ footer#copyright {
     }
 }
 
-article#CS, #SD, #WD, #ITS {
+article#CS, #SD, #WD, #ITS, #About {
     display: none;
 }
